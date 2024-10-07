@@ -8,6 +8,7 @@ package studentexample;
 public class Student {
     
     private String name;
+    private String address;
     private int age;
 
     public Student(String name) {
@@ -28,6 +29,14 @@ public class Student {
 
     public void setAge(int age) {
         this.age = age;
+    }
+    
+    public String getAddress(){
+        return address;
+    }
+    
+    public void setAddress(String address){
+        this.address = address;
     }
 
     
